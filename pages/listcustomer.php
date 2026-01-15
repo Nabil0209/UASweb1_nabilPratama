@@ -75,7 +75,8 @@ th {
             <td><?= $row['no_hp']; ?></td>
             <td><?= $row['email']; ?></td>
             <td>
-                <a href="dashboard.php?page=edit-customer&id=<?= $row['id_pelanggan']; ?>" class="btn btn-edit">Edit</a>
+                <a href="dashboard.php?page=edit-customer&id=<?= $row['id_pelanggan']; ?>" class="btn btn-edit">
+                    Edit</a>
                 <a href="dashboard.php?page=hapus-customer&id=<?= $row['id_pelanggan']; ?>"
                    class="btn btn-hapus"
                    onclick="return confirm('Yakin hapus data?')">

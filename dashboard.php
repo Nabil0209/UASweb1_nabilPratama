@@ -39,14 +39,14 @@ background: #34495e;
 /* Header */
 .header {
 height: 60px;
-background: white;
+background: black;
 padding: 10px 20px;
 margin-left: 220px;
 display: flex;
 justify-content: flex-end;
 
 align-items: center;
-border-bottom: 1px solid #ddd;
+border-bottom: 1px solid #20d1da;
 }
 .profile-btn {
 cursor: pointer;
@@ -76,7 +76,7 @@ text-decoration: none;
 color: #333;
 }
 .dropdown-content a:hover {
-background: #f0f0f0;
+background: #a9da09;
 }
 /* Content */
 .content {
@@ -92,7 +92,7 @@ padding: 20px;
 <a href="dashboard.php?page=listproducts">List Produk</a>
 
 <a href="dashboard.php?page=listcustomer">Customer</a>
-<a href="#">Transaksi</a>
+<a href="dashboard.php?page=transaksi">Transaksi</a>    
 <a href="#">Laporan</a>
 </div>
 <div class="header">
