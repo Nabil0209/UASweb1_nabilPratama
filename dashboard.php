@@ -16,7 +16,7 @@ background: #f4f4f4;
 .sidebar {
 width: 220px;
 height: 100vh;
-background: rgba(210, 11, 130, 0.81);
+background: #d51a30ff;
 color: white;
 position: fixed;
 top: 0;
@@ -39,14 +39,14 @@ background: #34495e;
 /* Header */
 .header {
 height: 60px;
-background: black;
+background: white;
 padding: 10px 20px;
 margin-left: 220px;
 display: flex;
 justify-content: flex-end;
 
 align-items: center;
-border-bottom: 1px solid #20d1da;
+border-bottom: 1px solid #ddd;
 }
 .profile-btn {
 cursor: pointer;
@@ -76,7 +76,7 @@ text-decoration: none;
 color: #333;
 }
 .dropdown-content a:hover {
-background: #a9da09;
+background: #f0f0f0;                                                    
 }
 /* Content */
 .content {
@@ -90,10 +90,9 @@ padding: 20px;
 <h2>Dashboard</h2>
 <a href="dashboard.php">Home</a>
 <a href="dashboard.php?page=listproducts">List Produk</a>
-
 <a href="dashboard.php?page=listcustomer">Customer</a>
-<a href="dashboard.php?page=transaksi">Transaksi</a>    
-<a href="#">Laporan</a>
+<a href="dashboard.php?page=transaksi">Transaksi</a>
+<a href="dashboard.php?page=laporan">Laporan</a>
 </div>
 <div class="header">
 <div class="dropdown">
